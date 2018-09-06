@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+           
+            body{background-color: lightpink;}
+            font{color:  white;}
+        </style>
+</head>
+    <body>
+        
+        
+    <center>
+        <h1>Calculadora con servlets</h1>
+        <br><br>
+    <form   action="calculadora"   method=POST>
+
+
+    <input   name="num1"   type="text">
+    <br><br>
+        <SELECT name="operacion">
+            <option value="1" selected >+</option>
+            <option value="2">-</option>
+            <option value="3">*</option>
+            <option value="4">/</option>
+            <option value="5">acos</option>
+            <option value="6">cos</option>
+            <option value="7">asen</option>
+             <option value="8">sen</option>
+             <option value="9">tan</option>
+              <option value="10">tanh</option>
+        </SELECT>
+    <br><br>
+    <input name="num2"   type=   "text">
+    <br>
+    <br>
+    <input   name="Calcular"  value="Calcular" type="submit">
+    &nbsp;&nbsp;
+    <input   name="limpiar" value="Limpiar" type="reset">
+    </form>
+        <br><br><br>
+    </center>
+    </body>
+</html>
